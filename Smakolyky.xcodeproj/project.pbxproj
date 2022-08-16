@@ -17,6 +17,7 @@
 		FAB3E99228AC16A50062B3EE /* SmakolykyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99128AC16A50062B3EE /* SmakolykyListView.swift */; };
 		FAB3E99428AC16FC0062B3EE /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99328AC16FC0062B3EE /* AccountView.swift */; };
 		FAB3E99628AC17100062B3EE /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99528AC17100062B3EE /* OrderView.swift */; };
+		FAB3E99828AC22770062B3EE /* Smakolyk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99728AC22770062B3EE /* Smakolyk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		FAB3E99128AC16A50062B3EE /* SmakolykyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyListView.swift; sourceTree = "<group>"; };
 		FAB3E99328AC16FC0062B3EE /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		FAB3E99528AC17100062B3EE /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		FAB3E99728AC22770062B3EE /* Smakolyk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smakolyk.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		FAB3E95B28AC14500062B3EE = {
 			isa = PBXGroup;
 			children = (
+				FAB3E99928AC24910062B3EE /* Remote */,
 				FAB3E96628AC14500062B3EE /* Smakolyky */,
 				FAB3E97728AC14530062B3EE /* SmakolykyTests */,
 				FAB3E98128AC14530062B3EE /* SmakolykyUITests */,
@@ -107,6 +110,7 @@
 				FAB3E99128AC16A50062B3EE /* SmakolykyListView.swift */,
 				FAB3E99328AC16FC0062B3EE /* AccountView.swift */,
 				FAB3E99528AC17100062B3EE /* OrderView.swift */,
+				FAB3E99728AC22770062B3EE /* Smakolyk.swift */,
 			);
 			path = Smakolyky;
 			sourceTree = "<group>";
@@ -134,6 +138,13 @@
 				FAB3E98428AC14530062B3EE /* SmakolykyUITestsLaunchTests.swift */,
 			);
 			path = SmakolykyUITests;
+			sourceTree = "<group>";
+		};
+		FAB3E99928AC24910062B3EE /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Remote;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +281,7 @@
 				FAB3E96A28AC14500062B3EE /* SmakolykyTabView.swift in Sources */,
 				FAB3E96828AC14500062B3EE /* SmakolykyApp.swift in Sources */,
 				FAB3E99228AC16A50062B3EE /* SmakolykyListView.swift in Sources */,
+				FAB3E99828AC22770062B3EE /* Smakolyk.swift in Sources */,
 				FAB3E99628AC17100062B3EE /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,10 +11,15 @@ import Foundation
 struct Smakolyk: Codable {
     let id: Int
     let name: String
-    let descriptio: String
+    let description: String
     let price: Double
     let imageURL: String
     let calories: Int
     let protein: Int
     let carbs: Int
+}
+
+/// Helper response struct
+struct SmakolykResponse {
+    let request: [Smakolyk]
 }

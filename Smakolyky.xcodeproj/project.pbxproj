@@ -18,7 +18,7 @@
 		FAB3E99428AC16FC0062B3EE /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99328AC16FC0062B3EE /* AccountView.swift */; };
 		FAB3E99628AC17100062B3EE /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99528AC17100062B3EE /* OrderView.swift */; };
 		FAB3E99828AC22770062B3EE /* Smakolyk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99728AC22770062B3EE /* Smakolyk.swift */; };
-		FAB3E99C28AC258C0062B3EE /* api in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E99B28AC258C0062B3EE /* api */; };
+		FAB3E99C28AC258C0062B3EE /* api.json in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E99B28AC258C0062B3EE /* api.json */; };
 		FAB3E9AB28AC28810062B3EE /* philly-cheesesteak-sliders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E99D28AC28810062B3EE /* philly-cheesesteak-sliders.jpg */; };
 		FAB3E9AC28AC28810062B3EE /* buffalo-chicken-bites.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E99E28AC28810062B3EE /* buffalo-chicken-bites.jpg */; };
 		FAB3E9AD28AC28810062B3EE /* stuff-shells.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E99F28AC28810062B3EE /* stuff-shells.jpg */; };
@@ -67,7 +67,7 @@
 		FAB3E99328AC16FC0062B3EE /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		FAB3E99528AC17100062B3EE /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		FAB3E99728AC22770062B3EE /* Smakolyk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smakolyk.swift; sourceTree = "<group>"; };
-		FAB3E99B28AC258C0062B3EE /* api */ = {isa = PBXFileReference; lastKnownFileType = text; path = api; sourceTree = "<group>"; };
+		FAB3E99B28AC258C0062B3EE /* api.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = api.json; sourceTree = "<group>"; };
 		FAB3E99D28AC28810062B3EE /* philly-cheesesteak-sliders.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "philly-cheesesteak-sliders.jpg"; sourceTree = "<group>"; };
 		FAB3E99E28AC28810062B3EE /* buffalo-chicken-bites.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "buffalo-chicken-bites.jpg"; sourceTree = "<group>"; };
 		FAB3E99F28AC28810062B3EE /* stuff-shells.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stuff-shells.jpg"; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				FAB3E99A28AC24E40062B3EE /* images */,
-				FAB3E99B28AC258C0062B3EE /* api */,
+				FAB3E99B28AC258C0062B3EE /* api.json */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
@@ -313,7 +313,7 @@
 				FAB3E9AB28AC28810062B3EE /* philly-cheesesteak-sliders.jpg in Resources */,
 				FAB3E9AF28AC28810062B3EE /* chicken-fingers.jpg in Resources */,
 				FAB3E9B228AC28810062B3EE /* jumbo-tater-tot.jpg in Resources */,
-				FAB3E99C28AC258C0062B3EE /* api in Resources */,
+				FAB3E99C28AC258C0062B3EE /* api.json in Resources */,
 				FAB3E9AC28AC28810062B3EE /* buffalo-chicken-bites.jpg in Resources */,
 				FAB3E96F28AC14530062B3EE /* Preview Assets.xcassets in Resources */,
 				FAB3E96C28AC14530062B3EE /* Assets.xcassets in Resources */,

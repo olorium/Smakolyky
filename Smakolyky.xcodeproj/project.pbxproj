@@ -173,13 +173,13 @@
 		FAB3E99928AC24910062B3EE /* Remote */ = {
 			isa = PBXGroup;
 			children = (
-				FAB3E99A28AC24E40062B3EE /* Images */,
+				FAB3E99A28AC24E40062B3EE /* images */,
 				FAB3E99B28AC258C0062B3EE /* api */,
 			);
 			path = Remote;
 			sourceTree = "<group>";
 		};
-		FAB3E99A28AC24E40062B3EE /* Images */ = {
+		FAB3E99A28AC24E40062B3EE /* images */ = {
 			isa = PBXGroup;
 			children = (
 				FAB3E9A528AC28810062B3EE /* asian-flank-steak.jpg */,
@@ -197,7 +197,7 @@
 				FAB3E9AA28AC28810062B3EE /* rainbow-spring-rolls.jpg */,
 				FAB3E99F28AC28810062B3EE /* stuff-shells.jpg */,
 			);
-			path = Images;
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

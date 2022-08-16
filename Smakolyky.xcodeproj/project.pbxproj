@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		FAB3E96828AC14500062B3EE /* SmakolykyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */; };
-		FAB3E96A28AC14500062B3EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E96928AC14500062B3EE /* ContentView.swift */; };
+		FAB3E96A28AC14500062B3EE /* SmakolykyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E96928AC14500062B3EE /* SmakolykyTabView.swift */; };
 		FAB3E96C28AC14530062B3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E96B28AC14530062B3EE /* Assets.xcassets */; };
 		FAB3E96F28AC14530062B3EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E96E28AC14530062B3EE /* Preview Assets.xcassets */; };
 		FAB3E97928AC14530062B3EE /* SmakolykyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E97828AC14530062B3EE /* SmakolykyTests.swift */; };
 		FAB3E98328AC14530062B3EE /* SmakolykyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E98228AC14530062B3EE /* SmakolykyUITests.swift */; };
 		FAB3E98528AC14530062B3EE /* SmakolykyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E98428AC14530062B3EE /* SmakolykyUITestsLaunchTests.swift */; };
+		FAB3E99228AC16A50062B3EE /* SmakolykyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99128AC16A50062B3EE /* SmakolykyListView.swift */; };
+		FAB3E99428AC16FC0062B3EE /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99328AC16FC0062B3EE /* AccountView.swift */; };
+		FAB3E99628AC17100062B3EE /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99528AC17100062B3EE /* OrderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		FAB3E96428AC14500062B3EE /* Smakolyky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smakolyky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyApp.swift; sourceTree = "<group>"; };
-		FAB3E96928AC14500062B3EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAB3E96928AC14500062B3EE /* SmakolykyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyTabView.swift; sourceTree = "<group>"; };
 		FAB3E96B28AC14530062B3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAB3E96E28AC14530062B3EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FAB3E97428AC14530062B3EE /* SmakolykyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmakolykyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +47,9 @@
 		FAB3E97E28AC14530062B3EE /* SmakolykyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmakolykyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB3E98228AC14530062B3EE /* SmakolykyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyUITests.swift; sourceTree = "<group>"; };
 		FAB3E98428AC14530062B3EE /* SmakolykyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAB3E99128AC16A50062B3EE /* SmakolykyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyListView.swift; sourceTree = "<group>"; };
+		FAB3E99328AC16FC0062B3EE /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		FAB3E99528AC17100062B3EE /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */,
-				FAB3E96928AC14500062B3EE /* ContentView.swift */,
+				FAB3E96928AC14500062B3EE /* SmakolykyTabView.swift */,
 				FAB3E96B28AC14530062B3EE /* Assets.xcassets */,
 				FAB3E96D28AC14530062B3EE /* Preview Content */,
+				FAB3E99128AC16A50062B3EE /* SmakolykyListView.swift */,
+				FAB3E99328AC16FC0062B3EE /* AccountView.swift */,
+				FAB3E99528AC17100062B3EE /* OrderView.swift */,
 			);
 			path = Smakolyky;
 			sourceTree = "<group>";
@@ -257,8 +266,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAB3E96A28AC14500062B3EE /* ContentView.swift in Sources */,
+				FAB3E99428AC16FC0062B3EE /* AccountView.swift in Sources */,
+				FAB3E96A28AC14500062B3EE /* SmakolykyTabView.swift in Sources */,
 				FAB3E96828AC14500062B3EE /* SmakolykyApp.swift in Sources */,
+				FAB3E99228AC16A50062B3EE /* SmakolykyListView.swift in Sources */,
+				FAB3E99628AC17100062B3EE /* OrderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,7 +357,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -399,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

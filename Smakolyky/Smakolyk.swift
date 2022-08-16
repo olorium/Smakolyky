@@ -8,7 +8,7 @@
 import Foundation
 
 /// The model for the food item
-struct Smakolyk: Codable {
+struct Smakolyk: Codable, Identifiable {
     let id: Int
     let name: String
     let description: String

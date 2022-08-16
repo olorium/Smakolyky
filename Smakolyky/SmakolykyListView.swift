@@ -10,7 +10,9 @@ import SwiftUI
 struct SmakolykyListView: View {
     var body: some View {
         NavigationView {
-            Text("List")
+            List(MockData.smakolyky) { smakolyk in
+                SmakolykListItem(smakolyk: smakolyk)
+            }
                 .navigationTitle("Smakolyky")
         }
     }
@@ -18,6 +20,8 @@ struct SmakolykyListView: View {
 
 struct SmakolykyListView_Previews: PreviewProvider {
     static var previews: some View {
-        SmakolykyListView()
+        Group {
+            SmakolykyListView()
+        }
     }
 }

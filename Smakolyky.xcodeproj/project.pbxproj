@@ -18,6 +18,21 @@
 		FAB3E99428AC16FC0062B3EE /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99328AC16FC0062B3EE /* AccountView.swift */; };
 		FAB3E99628AC17100062B3EE /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99528AC17100062B3EE /* OrderView.swift */; };
 		FAB3E99828AC22770062B3EE /* Smakolyk.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E99728AC22770062B3EE /* Smakolyk.swift */; };
+		FAB3E99C28AC258C0062B3EE /* api in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E99B28AC258C0062B3EE /* api */; };
+		FAB3E9AB28AC28810062B3EE /* philly-cheesesteak-sliders.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E99D28AC28810062B3EE /* philly-cheesesteak-sliders.jpg */; };
+		FAB3E9AC28AC28810062B3EE /* buffalo-chicken-bites.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E99E28AC28810062B3EE /* buffalo-chicken-bites.jpg */; };
+		FAB3E9AD28AC28810062B3EE /* stuff-shells.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E99F28AC28810062B3EE /* stuff-shells.jpg */; };
+		FAB3E9AE28AC28810062B3EE /* chicken-avocado-spring-roll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E9A028AC28810062B3EE /* chicken-avocado-spring-roll.jpg */; };
+		FAB3E9AF28AC28810062B3EE /* chicken-fingers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E9A128AC28810062B3EE /* chicken-fingers.jpg */; };
+		FAB3E9B028AC28810062B3EE /* blackened-shrimp.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E9A228AC28810062B3EE /* blackened-shrimp.jpg */; };
+		FAB3E9B128AC28810062B3EE /* chicken-wings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E9A328AC28810062B3EE /* chicken-wings.jpg */; };
+		FAB3E9B228AC28810062B3EE /* jumbo-tater-tot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E9A428AC28810062B3EE /* jumbo-tater-tot.jpg */; };
+		FAB3E9B328AC28810062B3EE /* asian-flank-steak.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E9A528AC28810062B3EE /* asian-flank-steak.jpg */; };
+		FAB3E9B428AC28810062B3EE /* meatballs.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E9A628AC28810062B3EE /* meatballs.jpg */; };
+		FAB3E9B528AC28810062B3EE /* chicken-dumplings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E9A728AC28810062B3EE /* chicken-dumplings.jpg */; };
+		FAB3E9B628AC28810062B3EE /* mozzarella-sticks.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E9A828AC28810062B3EE /* mozzarella-sticks.jpg */; };
+		FAB3E9B728AC28810062B3EE /* fried-cheese-ravioli.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E9A928AC28810062B3EE /* fried-cheese-ravioli.jpg */; };
+		FAB3E9B828AC28810062B3EE /* rainbow-spring-rolls.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E9AA28AC28810062B3EE /* rainbow-spring-rolls.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +67,21 @@
 		FAB3E99328AC16FC0062B3EE /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		FAB3E99528AC17100062B3EE /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		FAB3E99728AC22770062B3EE /* Smakolyk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smakolyk.swift; sourceTree = "<group>"; };
+		FAB3E99B28AC258C0062B3EE /* api */ = {isa = PBXFileReference; lastKnownFileType = text; path = api; sourceTree = "<group>"; };
+		FAB3E99D28AC28810062B3EE /* philly-cheesesteak-sliders.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "philly-cheesesteak-sliders.jpg"; sourceTree = "<group>"; };
+		FAB3E99E28AC28810062B3EE /* buffalo-chicken-bites.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "buffalo-chicken-bites.jpg"; sourceTree = "<group>"; };
+		FAB3E99F28AC28810062B3EE /* stuff-shells.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "stuff-shells.jpg"; sourceTree = "<group>"; };
+		FAB3E9A028AC28810062B3EE /* chicken-avocado-spring-roll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chicken-avocado-spring-roll.jpg"; sourceTree = "<group>"; };
+		FAB3E9A128AC28810062B3EE /* chicken-fingers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chicken-fingers.jpg"; sourceTree = "<group>"; };
+		FAB3E9A228AC28810062B3EE /* blackened-shrimp.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blackened-shrimp.jpg"; sourceTree = "<group>"; };
+		FAB3E9A328AC28810062B3EE /* chicken-wings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chicken-wings.jpg"; sourceTree = "<group>"; };
+		FAB3E9A428AC28810062B3EE /* jumbo-tater-tot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "jumbo-tater-tot.jpg"; sourceTree = "<group>"; };
+		FAB3E9A528AC28810062B3EE /* asian-flank-steak.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "asian-flank-steak.jpg"; sourceTree = "<group>"; };
+		FAB3E9A628AC28810062B3EE /* meatballs.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = meatballs.jpg; sourceTree = "<group>"; };
+		FAB3E9A728AC28810062B3EE /* chicken-dumplings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "chicken-dumplings.jpg"; sourceTree = "<group>"; };
+		FAB3E9A828AC28810062B3EE /* mozzarella-sticks.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mozzarella-sticks.jpg"; sourceTree = "<group>"; };
+		FAB3E9A928AC28810062B3EE /* fried-cheese-ravioli.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "fried-cheese-ravioli.jpg"; sourceTree = "<group>"; };
+		FAB3E9AA28AC28810062B3EE /* rainbow-spring-rolls.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "rainbow-spring-rolls.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +173,31 @@
 		FAB3E99928AC24910062B3EE /* Remote */ = {
 			isa = PBXGroup;
 			children = (
+				FAB3E99A28AC24E40062B3EE /* Images */,
+				FAB3E99B28AC258C0062B3EE /* api */,
 			);
 			path = Remote;
+			sourceTree = "<group>";
+		};
+		FAB3E99A28AC24E40062B3EE /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E9A528AC28810062B3EE /* asian-flank-steak.jpg */,
+				FAB3E9A228AC28810062B3EE /* blackened-shrimp.jpg */,
+				FAB3E99E28AC28810062B3EE /* buffalo-chicken-bites.jpg */,
+				FAB3E9A028AC28810062B3EE /* chicken-avocado-spring-roll.jpg */,
+				FAB3E9A728AC28810062B3EE /* chicken-dumplings.jpg */,
+				FAB3E9A128AC28810062B3EE /* chicken-fingers.jpg */,
+				FAB3E9A328AC28810062B3EE /* chicken-wings.jpg */,
+				FAB3E9A928AC28810062B3EE /* fried-cheese-ravioli.jpg */,
+				FAB3E9A428AC28810062B3EE /* jumbo-tater-tot.jpg */,
+				FAB3E9A628AC28810062B3EE /* meatballs.jpg */,
+				FAB3E9A828AC28810062B3EE /* mozzarella-sticks.jpg */,
+				FAB3E99D28AC28810062B3EE /* philly-cheesesteak-sliders.jpg */,
+				FAB3E9AA28AC28810062B3EE /* rainbow-spring-rolls.jpg */,
+				FAB3E99F28AC28810062B3EE /* stuff-shells.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +304,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAB3E9B428AC28810062B3EE /* meatballs.jpg in Resources */,
+				FAB3E9AE28AC28810062B3EE /* chicken-avocado-spring-roll.jpg in Resources */,
+				FAB3E9B028AC28810062B3EE /* blackened-shrimp.jpg in Resources */,
+				FAB3E9B528AC28810062B3EE /* chicken-dumplings.jpg in Resources */,
+				FAB3E9B828AC28810062B3EE /* rainbow-spring-rolls.jpg in Resources */,
+				FAB3E9B128AC28810062B3EE /* chicken-wings.jpg in Resources */,
+				FAB3E9AB28AC28810062B3EE /* philly-cheesesteak-sliders.jpg in Resources */,
+				FAB3E9AF28AC28810062B3EE /* chicken-fingers.jpg in Resources */,
+				FAB3E9B228AC28810062B3EE /* jumbo-tater-tot.jpg in Resources */,
+				FAB3E99C28AC258C0062B3EE /* api in Resources */,
+				FAB3E9AC28AC28810062B3EE /* buffalo-chicken-bites.jpg in Resources */,
 				FAB3E96F28AC14530062B3EE /* Preview Assets.xcassets in Resources */,
 				FAB3E96C28AC14530062B3EE /* Assets.xcassets in Resources */,
+				FAB3E9B328AC28810062B3EE /* asian-flank-steak.jpg in Resources */,
+				FAB3E9B628AC28810062B3EE /* mozzarella-sticks.jpg in Resources */,
+				FAB3E9B728AC28810062B3EE /* fried-cheese-ravioli.jpg in Resources */,
+				FAB3E9AD28AC28810062B3EE /* stuff-shells.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

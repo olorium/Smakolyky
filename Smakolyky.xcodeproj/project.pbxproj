@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB3E96828AC14500062B3EE /* SmakolykyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */; };
+		FAB3E96A28AC14500062B3EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E96928AC14500062B3EE /* ContentView.swift */; };
+		FAB3E96C28AC14530062B3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E96B28AC14530062B3EE /* Assets.xcassets */; };
+		FAB3E96F28AC14530062B3EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E96E28AC14530062B3EE /* Preview Assets.xcassets */; };
+		FAB3E97928AC14530062B3EE /* SmakolykyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E97828AC14530062B3EE /* SmakolykyTests.swift */; };
+		FAB3E98328AC14530062B3EE /* SmakolykyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E98228AC14530062B3EE /* SmakolykyUITests.swift */; };
+		FAB3E98528AC14530062B3EE /* SmakolykyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E98428AC14530062B3EE /* SmakolykyUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAB3E97528AC14530062B3EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB3E95C28AC14500062B3EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB3E96328AC14500062B3EE;
+			remoteInfo = Smakolyky;
+		};
+		FAB3E97F28AC14530062B3EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAB3E95C28AC14500062B3EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB3E96328AC14500062B3EE;
+			remoteInfo = Smakolyky;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAB3E96428AC14500062B3EE /* Smakolyky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smakolyky.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyApp.swift; sourceTree = "<group>"; };
+		FAB3E96928AC14500062B3EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FAB3E96B28AC14530062B3EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB3E96E28AC14530062B3EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FAB3E97428AC14530062B3EE /* SmakolykyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmakolykyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB3E97828AC14530062B3EE /* SmakolykyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyTests.swift; sourceTree = "<group>"; };
+		FAB3E97E28AC14530062B3EE /* SmakolykyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmakolykyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB3E98228AC14530062B3EE /* SmakolykyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyUITests.swift; sourceTree = "<group>"; };
+		FAB3E98428AC14530062B3EE /* SmakolykyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB3E96128AC14500062B3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB3E97128AC14530062B3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB3E97B28AC14530062B3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB3E95B28AC14500062B3EE = {
+			isa = PBXGroup;
+			children = (
+				FAB3E96628AC14500062B3EE /* Smakolyky */,
+				FAB3E97728AC14530062B3EE /* SmakolykyTests */,
+				FAB3E98128AC14530062B3EE /* SmakolykyUITests */,
+				FAB3E96528AC14500062B3EE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB3E96528AC14500062B3EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E96428AC14500062B3EE /* Smakolyky.app */,
+				FAB3E97428AC14530062B3EE /* SmakolykyTests.xctest */,
+				FAB3E97E28AC14530062B3EE /* SmakolykyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB3E96628AC14500062B3EE /* Smakolyky */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */,
+				FAB3E96928AC14500062B3EE /* ContentView.swift */,
+				FAB3E96B28AC14530062B3EE /* Assets.xcassets */,
+				FAB3E96D28AC14530062B3EE /* Preview Content */,
+			);
+			path = Smakolyky;
+			sourceTree = "<group>";
+		};
+		FAB3E96D28AC14530062B3EE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E96E28AC14530062B3EE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FAB3E97728AC14530062B3EE /* SmakolykyTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E97828AC14530062B3EE /* SmakolykyTests.swift */,
+			);
+			path = SmakolykyTests;
+			sourceTree = "<group>";
+		};
+		FAB3E98128AC14530062B3EE /* SmakolykyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E98228AC14530062B3EE /* SmakolykyUITests.swift */,
+				FAB3E98428AC14530062B3EE /* SmakolykyUITestsLaunchTests.swift */,
+			);
+			path = SmakolykyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB3E96328AC14500062B3EE /* Smakolyky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB3E98828AC14530062B3EE /* Build configuration list for PBXNativeTarget "Smakolyky" */;
+			buildPhases = (
+				FAB3E96028AC14500062B3EE /* Sources */,
+				FAB3E96128AC14500062B3EE /* Frameworks */,
+				FAB3E96228AC14500062B3EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smakolyky;
+			productName = Smakolyky;
+			productReference = FAB3E96428AC14500062B3EE /* Smakolyky.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAB3E97328AC14530062B3EE /* SmakolykyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB3E98B28AC14530062B3EE /* Build configuration list for PBXNativeTarget "SmakolykyTests" */;
+			buildPhases = (
+				FAB3E97028AC14530062B3EE /* Sources */,
+				FAB3E97128AC14530062B3EE /* Frameworks */,
+				FAB3E97228AC14530062B3EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB3E97628AC14530062B3EE /* PBXTargetDependency */,
+			);
+			name = SmakolykyTests;
+			productName = SmakolykyTests;
+			productReference = FAB3E97428AC14530062B3EE /* SmakolykyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAB3E97D28AC14530062B3EE /* SmakolykyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB3E98E28AC14530062B3EE /* Build configuration list for PBXNativeTarget "SmakolykyUITests" */;
+			buildPhases = (
+				FAB3E97A28AC14530062B3EE /* Sources */,
+				FAB3E97B28AC14530062B3EE /* Frameworks */,
+				FAB3E97C28AC14530062B3EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAB3E98028AC14530062B3EE /* PBXTargetDependency */,
+			);
+			name = SmakolykyUITests;
+			productName = SmakolykyUITests;
+			productReference = FAB3E97E28AC14530062B3EE /* SmakolykyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB3E95C28AC14500062B3EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FAB3E96328AC14500062B3EE = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FAB3E97328AC14530062B3EE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FAB3E96328AC14500062B3EE;
+					};
+					FAB3E97D28AC14530062B3EE = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FAB3E96328AC14500062B3EE;
+					};
+				};
+			};
+			buildConfigurationList = FAB3E95F28AC14500062B3EE /* Build configuration list for PBXProject "Smakolyky" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB3E95B28AC14500062B3EE;
+			productRefGroup = FAB3E96528AC14500062B3EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB3E96328AC14500062B3EE /* Smakolyky */,
+				FAB3E97328AC14530062B3EE /* SmakolykyTests */,
+				FAB3E97D28AC14530062B3EE /* SmakolykyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB3E96228AC14500062B3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB3E96F28AC14530062B3EE /* Preview Assets.xcassets in Resources */,
+				FAB3E96C28AC14530062B3EE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB3E97228AC14530062B3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB3E97C28AC14530062B3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB3E96028AC14500062B3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB3E96A28AC14500062B3EE /* ContentView.swift in Sources */,
+				FAB3E96828AC14500062B3EE /* SmakolykyApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB3E97028AC14530062B3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB3E97928AC14530062B3EE /* SmakolykyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAB3E97A28AC14530062B3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB3E98328AC14530062B3EE /* SmakolykyUITests.swift in Sources */,
+				FAB3E98528AC14530062B3EE /* SmakolykyUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAB3E97628AC14530062B3EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB3E96328AC14500062B3EE /* Smakolyky */;
+			targetProxy = FAB3E97528AC14530062B3EE /* PBXContainerItemProxy */;
+		};
+		FAB3E98028AC14530062B3EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAB3E96328AC14500062B3EE /* Smakolyky */;
+			targetProxy = FAB3E97F28AC14530062B3EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FAB3E98628AC14530062B3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAB3E98728AC14530062B3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAB3E98928AC14530062B3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smakolyky/Preview Content\"";
+				DEVELOPMENT_TEAM = R55SB7N5G9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.slashapp.Smakolyky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAB3E98A28AC14530062B3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Smakolyky/Preview Content\"";
+				DEVELOPMENT_TEAM = R55SB7N5G9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.slashapp.Smakolyky;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAB3E98C28AC14530062B3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R55SB7N5G9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.slashapp.SmakolykyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smakolyky.app/Smakolyky";
+			};
+			name = Debug;
+		};
+		FAB3E98D28AC14530062B3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R55SB7N5G9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.slashapp.SmakolykyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Smakolyky.app/Smakolyky";
+			};
+			name = Release;
+		};
+		FAB3E98F28AC14530062B3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R55SB7N5G9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.slashapp.SmakolykyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smakolyky;
+			};
+			name = Debug;
+		};
+		FAB3E99028AC14530062B3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = R55SB7N5G9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.slashapp.SmakolykyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Smakolyky;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB3E95F28AC14500062B3EE /* Build configuration list for PBXProject "Smakolyky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB3E98628AC14530062B3EE /* Debug */,
+				FAB3E98728AC14530062B3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB3E98828AC14530062B3EE /* Build configuration list for PBXNativeTarget "Smakolyky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB3E98928AC14530062B3EE /* Debug */,
+				FAB3E98A28AC14530062B3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB3E98B28AC14530062B3EE /* Build configuration list for PBXNativeTarget "SmakolykyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB3E98C28AC14530062B3EE /* Debug */,
+				FAB3E98D28AC14530062B3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB3E98E28AC14530062B3EE /* Build configuration list for PBXNativeTarget "SmakolykyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB3E98F28AC14530062B3EE /* Debug */,
+				FAB3E99028AC14530062B3EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB3E95C28AC14500062B3EE /* Project object */;
+}

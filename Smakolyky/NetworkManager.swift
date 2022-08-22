@@ -12,8 +12,8 @@ final class NetworkManager {
     /// Shared instance of the networkManager
     static let shared = NetworkManager()
     
-    /// JSON file lives in github repo, folder `Remote`
-    private let baseURL = "https://github.com/olorium/Smakolyky/blob/main/Remote/api"
+    /// JSON file lives in gitHub repo, folder `Remote`
+    private let baseURL = "https://raw.githubusercontent.com/olorium/Smakolyky/main/Remote/api"
     
     
     /// Getting array of `Smakolyky` from remote API
@@ -25,7 +25,7 @@ final class NetworkManager {
         }
         
         let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, response, error in
-            guard let _ = error else {
+            if let _ = error {
                 completed(.failure(.unableToComplete))
                 return
             }

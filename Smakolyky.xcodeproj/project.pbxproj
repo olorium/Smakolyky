@@ -37,6 +37,7 @@
 		FAB3E9BC28AC30AA0062B3EE /* SmakolykListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E9BB28AC30AA0062B3EE /* SmakolykListItem.swift */; };
 		FAB3E9BE28B408130062B3EE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E9BD28B408130062B3EE /* NetworkManager.swift */; };
 		FAB3E9C028B409EF0062B3EE /* SMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E9BF28B409EE0062B3EE /* SMError.swift */; };
+		FAB3E9C228B4186E0062B3EE /* SmakolykyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E9C128B4186E0062B3EE /* SmakolykyViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		FAB3E9BB28AC30AA0062B3EE /* SmakolykListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykListItem.swift; sourceTree = "<group>"; };
 		FAB3E9BD28B408130062B3EE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		FAB3E9BF28B409EE0062B3EE /* SMError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMError.swift; sourceTree = "<group>"; };
+		FAB3E9C128B4186E0062B3EE /* SmakolykyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 				FAB3E96928AC14500062B3EE /* SmakolykyTabView.swift */,
 				FAB3E96B28AC14530062B3EE /* Assets.xcassets */,
 				FAB3E96D28AC14530062B3EE /* Preview Content */,
+				FAB3E9C128B4186E0062B3EE /* SmakolykyViewModel.swift */,
 				FAB3E99128AC16A50062B3EE /* SmakolykyListView.swift */,
 				FAB3E9BB28AC30AA0062B3EE /* SmakolykListItem.swift */,
 				FAB3E99328AC16FC0062B3EE /* AccountView.swift */,
@@ -365,6 +368,7 @@
 				FAB3E9BA28AC2B650062B3EE /* MockData.swift in Sources */,
 				FAB3E99228AC16A50062B3EE /* SmakolykyListView.swift in Sources */,
 				FAB3E99828AC22770062B3EE /* Smakolyk.swift in Sources */,
+				FAB3E9C228B4186E0062B3EE /* SmakolykyViewModel.swift in Sources */,
 				FAB3E99628AC17100062B3EE /* OrderView.swift in Sources */,
 				FAB3E9BC28AC30AA0062B3EE /* SmakolykListItem.swift in Sources */,
 			);

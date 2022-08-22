@@ -20,6 +20,6 @@ struct Smakolyk: Codable, Identifiable {
 }
 
 /// Helper response struct
-struct SmakolykResponse {
+struct SmakolykResponse: Decodable {
     let request: [Smakolyk]
 }

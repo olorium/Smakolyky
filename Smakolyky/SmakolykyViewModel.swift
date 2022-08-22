@@ -10,15 +10,29 @@ import Foundation
 final class SmakolykyListViewModel: ObservableObject {
     
     @Published var smakolykyList: [Smakolyk] = []
+    @Published var alertItem: AlertItem?
     
     func getSmakolyky() {
         NetworkManager.shared.getSmakolyky { result in
-            DispatchQueue.main.async {
+            DispatchQueue.main.async { [self] in
                 switch result {
                 case .success(let smakolyks):
-                    self.smakolykyList = smakolyks
+                    smakolykyList = smakolyks
+                    
                 case .failure(let error):
-                    print(error.localizedDescription)
+                    switch error {
+                    case .invalidURL:
+                        alertItem = AlertContext.invalidURL
+                    
+                    case .invalidResponse:
+                        alertItem = AlertContext.invalidResponse
+                    
+                    case .invalidData:
+                        alertItem = AlertContext.invalidResponse
+                    
+                    case .unableToComplete:
+                        alertItem = AlertContext.unableToComplete
+                    }
                 }
             }
         }

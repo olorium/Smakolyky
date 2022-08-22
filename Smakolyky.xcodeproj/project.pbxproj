@@ -38,6 +38,7 @@
 		FAB3E9BE28B408130062B3EE /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E9BD28B408130062B3EE /* NetworkManager.swift */; };
 		FAB3E9C028B409EF0062B3EE /* SMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E9BF28B409EE0062B3EE /* SMError.swift */; };
 		FAB3E9C228B4186E0062B3EE /* SmakolykyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E9C128B4186E0062B3EE /* SmakolykyViewModel.swift */; };
+		FAB3E9C428B420140062B3EE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E9C328B420140062B3EE /* Alert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		FAB3E9BD28B408130062B3EE /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		FAB3E9BF28B409EE0062B3EE /* SMError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMError.swift; sourceTree = "<group>"; };
 		FAB3E9C128B4186E0062B3EE /* SmakolykyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyViewModel.swift; sourceTree = "<group>"; };
+		FAB3E9C328B420140062B3EE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +158,7 @@
 				FAB3E9B928AC2B650062B3EE /* MockData.swift */,
 				FAB3E9BD28B408130062B3EE /* NetworkManager.swift */,
 				FAB3E9BF28B409EE0062B3EE /* SMError.swift */,
+				FAB3E9C328B420140062B3EE /* Alert.swift */,
 			);
 			path = Smakolyky;
 			sourceTree = "<group>";
@@ -366,6 +369,7 @@
 				FAB3E96A28AC14500062B3EE /* SmakolykyTabView.swift in Sources */,
 				FAB3E96828AC14500062B3EE /* SmakolykyApp.swift in Sources */,
 				FAB3E9BA28AC2B650062B3EE /* MockData.swift in Sources */,
+				FAB3E9C428B420140062B3EE /* Alert.swift in Sources */,
 				FAB3E99228AC16A50062B3EE /* SmakolykyListView.swift in Sources */,
 				FAB3E99828AC22770062B3EE /* Smakolyk.swift in Sources */,
 				FAB3E9C228B4186E0062B3EE /* SmakolykyViewModel.swift in Sources */,

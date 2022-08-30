@@ -11,10 +11,13 @@ final class SmakolykyListViewModel: ObservableObject {
     
     @Published var smakolykyList: [Smakolyk] = []
     @Published var alertItem: AlertItem?
+    @Published var isLoading = false
     
     func getSmakolyky() {
+        isLoading = true
         NetworkManager.shared.getSmakolyky { result in
             DispatchQueue.main.async { [self] in
+                isLoading = false
                 switch result {
                 case .success(let smakolyks):
                     smakolykyList = smakolyks

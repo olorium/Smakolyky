@@ -6,11 +6,15 @@
 //
 
 import Foundation
+import UIKit
 
 final class NetworkManager {
     
     /// Shared instance of the networkManager
     static let shared = NetworkManager()
+    
+    /// Cashing property for images
+    private let cache = NSCache<NSString, UIImage>()
     
     /// JSON file lives in gitHub repo, folder `Remote`
     private let baseURL = "https://raw.githubusercontent.com/olorium/Smakolyky/main/Remote/api"
@@ -51,5 +55,31 @@ final class NetworkManager {
         task.resume()
     }
     
-    private init() {}
+    /// Getting images from `URLString`
+    func downloadImage(from URLString: String, completed: @escaping(UIImage?) -> Void) {
+        
+        let cacheKey = NSString(string: URLString)
+        
+        if let image = cache.object(forKey: cacheKey) {
+            completed(image)
+            return
+        }
+        
+        guard let url = URL(string: URLString) else {
+            completed(nil)
+            return
+        }
+        
+        let task = URLSession.shared.dataTask(with: URLRequest(url: url)) { data, response, error in
+            guard let data = data, let image = UIImage(data: data) else {
+                completed(nil)
+                return
+            }
+            
+            self.cache.setObject(image, forKey: cacheKey)
+            
+            completed(image)
+        }
+        task.resume()
+    }
 }

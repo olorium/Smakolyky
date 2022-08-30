@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		FA0608A828BBDD48006433F0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0608A728BBDD48006433F0 /* LoadingView.swift */; };
 		FA0608AA28BBDED5006433F0 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0608A928BBDED5006433F0 /* Color+Ext.swift */; };
+		FA48907828BEB1F900C70997 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48907728BEB1F900C70997 /* RemoteImage.swift */; };
 		FAB3E96828AC14500062B3EE /* SmakolykyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */; };
 		FAB3E96A28AC14500062B3EE /* SmakolykyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E96928AC14500062B3EE /* SmakolykyTabView.swift */; };
 		FAB3E96C28AC14530062B3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E96B28AC14530062B3EE /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 /* Begin PBXFileReference section */
 		FA0608A728BBDD48006433F0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		FA0608A928BBDED5006433F0 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
+		FA48907728BEB1F900C70997 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		FAB3E96428AC14500062B3EE /* Smakolyky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smakolyky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyApp.swift; sourceTree = "<group>"; };
 		FAB3E96928AC14500062B3EE /* SmakolykyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyTabView.swift; sourceTree = "<group>"; };
@@ -165,6 +167,7 @@
 				FAB3E9C328B420140062B3EE /* Alert.swift */,
 				FA0608A728BBDD48006433F0 /* LoadingView.swift */,
 				FA0608A928BBDED5006433F0 /* Color+Ext.swift */,
+				FA48907728BEB1F900C70997 /* RemoteImage.swift */,
 			);
 			path = Smakolyky;
 			sourceTree = "<group>";
@@ -372,6 +375,7 @@
 				FAB3E9C028B409EF0062B3EE /* SMError.swift in Sources */,
 				FA0608AA28BBDED5006433F0 /* Color+Ext.swift in Sources */,
 				FAB3E9BE28B408130062B3EE /* NetworkManager.swift in Sources */,
+				FA48907828BEB1F900C70997 /* RemoteImage.swift in Sources */,
 				FAB3E99428AC16FC0062B3EE /* AccountView.swift in Sources */,
 				FAB3E96A28AC14500062B3EE /* SmakolykyTabView.swift in Sources */,
 				FAB3E96828AC14500062B3EE /* SmakolykyApp.swift in Sources */,

@@ -13,7 +13,7 @@ struct MockData {
                                          name: "The best Smakolyk",
                                          description: "Crusty and very tasty, free of charge. This food is the best for parties and regular lunches.",
                                          price: 990.00,
-                                         imageURL: "",
+                                         imageURL: "https://raw.githubusercontent.com/olorium/Smakolyky/main/Remote/images/chicken-dumplings.jpg",
                                          calories: 50,
                                          protein: 60,
                                          carbs: 70)

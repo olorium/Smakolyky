@@ -13,9 +13,7 @@ struct SmakolykListItem: View {
     
     var body: some View {
         HStack {
-            Image("meatballs")
-                .resizable()
-                .aspectRatio(contentMode: .fill)
+            SmakolykRemoteImage(url: smakolyk.imageURL)
                 .frame(width: 120, height: 90)
                 .cornerRadius(8)
             VStack(alignment: .leading, spacing: 5) {

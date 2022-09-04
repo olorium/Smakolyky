@@ -152,22 +152,12 @@
 			isa = PBXGroup;
 			children = (
 				FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */,
-				FAB3E96928AC14500062B3EE /* SmakolykyTabView.swift */,
+				FADE6F4628C512B30008433D /* Model */,
+				FADE6F4728C512E50008433D /* Views */,
+				FADE6F3F28C511690008433D /* Screens */,
+				FADE6F4328C512240008433D /* Utilities */,
 				FAB3E96B28AC14530062B3EE /* Assets.xcassets */,
 				FAB3E96D28AC14530062B3EE /* Preview Content */,
-				FAB3E9C128B4186E0062B3EE /* SmakolykyViewModel.swift */,
-				FAB3E99128AC16A50062B3EE /* SmakolykyListView.swift */,
-				FAB3E9BB28AC30AA0062B3EE /* SmakolykListItem.swift */,
-				FAB3E99328AC16FC0062B3EE /* AccountView.swift */,
-				FAB3E99528AC17100062B3EE /* OrderView.swift */,
-				FAB3E99728AC22770062B3EE /* Smakolyk.swift */,
-				FAB3E9B928AC2B650062B3EE /* MockData.swift */,
-				FAB3E9BD28B408130062B3EE /* NetworkManager.swift */,
-				FAB3E9BF28B409EE0062B3EE /* SMError.swift */,
-				FAB3E9C328B420140062B3EE /* Alert.swift */,
-				FA0608A728BBDD48006433F0 /* LoadingView.swift */,
-				FA0608A928BBDED5006433F0 /* Color+Ext.swift */,
-				FA48907728BEB1F900C70997 /* RemoteImage.swift */,
 			);
 			path = Smakolyky;
 			sourceTree = "<group>";
@@ -225,6 +215,88 @@
 				FAB3E99F28AC28810062B3EE /* stuff-shells.jpg */,
 			);
 			path = images;
+			sourceTree = "<group>";
+		};
+		FADE6F3F28C511690008433D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E96928AC14500062B3EE /* SmakolykyTabView.swift */,
+				FADE6F4228C511B70008433D /* OrderView */,
+				FADE6F4128C511A20008433D /* AccountView */,
+				FADE6F4028C511830008433D /* SmakolykListView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		FADE6F4028C511830008433D /* SmakolykListView */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E9C128B4186E0062B3EE /* SmakolykyViewModel.swift */,
+				FAB3E99128AC16A50062B3EE /* SmakolykyListView.swift */,
+			);
+			path = SmakolykListView;
+			sourceTree = "<group>";
+		};
+		FADE6F4128C511A20008433D /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E99328AC16FC0062B3EE /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		FADE6F4228C511B70008433D /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E99528AC17100062B3EE /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		FADE6F4328C512240008433D /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E9B928AC2B650062B3EE /* MockData.swift */,
+				FAB3E9BF28B409EE0062B3EE /* SMError.swift */,
+				FAB3E9C328B420140062B3EE /* Alert.swift */,
+				FADE6F4528C512510008433D /* Extensions */,
+				FADE6F4428C512370008433D /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		FADE6F4428C512370008433D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E9BD28B408130062B3EE /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		FADE6F4528C512510008433D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA0608A928BBDED5006433F0 /* Color+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FADE6F4628C512B30008433D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAB3E99728AC22770062B3EE /* Smakolyk.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FADE6F4728C512E50008433D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA0608A728BBDD48006433F0 /* LoadingView.swift */,
+				FA48907728BEB1F900C70997 /* RemoteImage.swift */,
+				FAB3E9BB28AC30AA0062B3EE /* SmakolykListItem.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

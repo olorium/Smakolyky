@@ -12,6 +12,8 @@ final class SmakolykyListViewModel: ObservableObject {
     @Published var smakolykyList: [Smakolyk] = []
     @Published var alertItem: AlertItem?
     @Published var isLoading = false
+    @Published var isShowingDetail = false
+    @Published var selectedSmakolyk: Smakolyk?
     
     func getSmakolyky() {
         isLoading = true

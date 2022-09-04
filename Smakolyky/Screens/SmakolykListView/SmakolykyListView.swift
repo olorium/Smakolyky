@@ -16,12 +16,25 @@ struct SmakolykyListView: View {
             NavigationView {
                 List(viewModel.smakolykyList) { smakolyk in
                     SmakolykListItem(smakolyk: smakolyk)
+                        .onTapGesture {
+                            viewModel.selectedSmakolyk = smakolyk
+                            viewModel.isShowingDetail = true
+                        }
                 }
                 .navigationTitle("Smakolyky")
+                .disabled(viewModel.isShowingDetail)
             }
-            .onAppear() { viewModel.getSmakolyky()
+            .onAppear() { viewModel.getSmakolyky() }
+            .blur(radius: viewModel.isShowingDetail ? 20 : 0)
+            
+            // Present DetailView on cell tap
+            if viewModel.isShowingDetail {
+                if let selectedItem = viewModel.selectedSmakolyk {
+                    SmakolykDetailView(smakolyk: selectedItem, isShowingDetail: $viewModel.isShowingDetail)
+                }
             }
             
+            // Present LoadingView while loading data
             if viewModel.isLoading {
                 LoadingView()
             }

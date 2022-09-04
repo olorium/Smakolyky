@@ -42,6 +42,9 @@
 		FAB3E9C028B409EF0062B3EE /* SMError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E9BF28B409EE0062B3EE /* SMError.swift */; };
 		FAB3E9C228B4186E0062B3EE /* SmakolykyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E9C128B4186E0062B3EE /* SmakolykyViewModel.swift */; };
 		FAB3E9C428B420140062B3EE /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E9C328B420140062B3EE /* Alert.swift */; };
+		FADE6F4928C514770008433D /* SmakolykDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F4828C514770008433D /* SmakolykDetailView.swift */; };
+		FADE6F4C28C52BF30008433D /* SMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F4B28C52BF30008433D /* SMButton.swift */; };
+		FADE6F4E28C52D1B0008433D /* SMDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F4D28C52D1B0008433D /* SMDismissButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +103,9 @@
 		FAB3E9BF28B409EE0062B3EE /* SMError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMError.swift; sourceTree = "<group>"; };
 		FAB3E9C128B4186E0062B3EE /* SmakolykyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyViewModel.swift; sourceTree = "<group>"; };
 		FAB3E9C328B420140062B3EE /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		FADE6F4828C514770008433D /* SmakolykDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykDetailView.swift; sourceTree = "<group>"; };
+		FADE6F4B28C52BF30008433D /* SMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMButton.swift; sourceTree = "<group>"; };
+		FADE6F4D28C52D1B0008433D /* SMDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMDismissButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +239,7 @@
 			children = (
 				FAB3E9C128B4186E0062B3EE /* SmakolykyViewModel.swift */,
 				FAB3E99128AC16A50062B3EE /* SmakolykyListView.swift */,
+				FADE6F4828C514770008433D /* SmakolykDetailView.swift */,
 			);
 			path = SmakolykListView;
 			sourceTree = "<group>";
@@ -292,11 +299,21 @@
 		FADE6F4728C512E50008433D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FADE6F4A28C52BA50008433D /* Buttons */,
 				FA0608A728BBDD48006433F0 /* LoadingView.swift */,
 				FA48907728BEB1F900C70997 /* RemoteImage.swift */,
 				FAB3E9BB28AC30AA0062B3EE /* SmakolykListItem.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		FADE6F4A28C52BA50008433D /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				FADE6F4B28C52BF30008433D /* SMButton.swift */,
+				FADE6F4D28C52D1B0008433D /* SMDismissButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -444,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FADE6F4E28C52D1B0008433D /* SMDismissButton.swift in Sources */,
 				FAB3E9C028B409EF0062B3EE /* SMError.swift in Sources */,
 				FA0608AA28BBDED5006433F0 /* Color+Ext.swift in Sources */,
 				FAB3E9BE28B408130062B3EE /* NetworkManager.swift in Sources */,
@@ -456,8 +474,10 @@
 				FAB3E99228AC16A50062B3EE /* SmakolykyListView.swift in Sources */,
 				FAB3E99828AC22770062B3EE /* Smakolyk.swift in Sources */,
 				FAB3E9C228B4186E0062B3EE /* SmakolykyViewModel.swift in Sources */,
+				FADE6F4928C514770008433D /* SmakolykDetailView.swift in Sources */,
 				FAB3E99628AC17100062B3EE /* OrderView.swift in Sources */,
 				FA0608A828BBDD48006433F0 /* LoadingView.swift in Sources */,
+				FADE6F4C28C52BF30008433D /* SMButton.swift in Sources */,
 				FAB3E9BC28AC30AA0062B3EE /* SmakolykListItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

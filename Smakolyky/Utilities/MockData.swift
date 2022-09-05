@@ -9,7 +9,7 @@ import Foundation
 
 struct MockData {
     
-    static let sampleSmakolyk = Smakolyk(id: 001,
+    static let sampleSmakolyk = Smakolyk(id: Int.random(in: 0...10),
                                          name: "The best Smakolyk",
                                          description: "Crusty and very tasty, free of charge. This food is the best for parties and regular lunches.",
                                          price: 990.00,

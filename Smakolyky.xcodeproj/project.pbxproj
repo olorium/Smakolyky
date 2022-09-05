@@ -47,6 +47,7 @@
 		FADE6F4E28C52D1B0008433D /* SMDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F4D28C52D1B0008433D /* SMDismissButton.swift */; };
 		FADE6F5028C668BD0008433D /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F4F28C668BD0008433D /* AccountViewModel.swift */; };
 		FADE6F5228C66E3B0008433D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F5128C66E3B0008433D /* String+Ext.swift */; };
+		FADE6F5428C6731B0008433D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F5328C6731B0008433D /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,6 +111,7 @@
 		FADE6F4D28C52D1B0008433D /* SMDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMDismissButton.swift; sourceTree = "<group>"; };
 		FADE6F4F28C668BD0008433D /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
 		FADE6F5128C66E3B0008433D /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
+		FADE6F5328C6731B0008433D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -298,6 +300,7 @@
 			isa = PBXGroup;
 			children = (
 				FAB3E99728AC22770062B3EE /* Smakolyk.swift */,
+				FADE6F5328C6731B0008433D /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 				FADE6F4C28C52BF30008433D /* SMButton.swift in Sources */,
 				FADE6F5228C66E3B0008433D /* String+Ext.swift in Sources */,
 				FAB3E9BC28AC30AA0062B3EE /* SmakolykListItem.swift in Sources */,
+				FADE6F5428C6731B0008433D /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

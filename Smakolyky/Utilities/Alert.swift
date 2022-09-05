@@ -25,4 +25,8 @@ struct AlertContext {
     // MARK: - Form alerts
     static let invalidForm = AlertItem(title: Text("Invalid Forl"), message: Text("Please ensure all fields in the form have been filled out"), dismissButton: .default(Text("Ok")))
     static let invalidEmail = AlertItem(title: Text("Invalid Email"), message: Text("Please check your email address"), dismissButton: .default(Text("Ok")))
+    
+    // MARK: - Persistence alerts
+    static let userSaveSuccess = AlertItem(title: Text("Profiled Saved"), message: Text("Your profile successfully saved"), dismissButton: .default(Text("Ok")))
+    static let userSaveError = AlertItem(title: Text("Error Saving Profile"), message: Text("Error saving profile"), dismissButton: .default(Text("Ok")))
 }

@@ -45,6 +45,8 @@
 		FADE6F4928C514770008433D /* SmakolykDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F4828C514770008433D /* SmakolykDetailView.swift */; };
 		FADE6F4C28C52BF30008433D /* SMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F4B28C52BF30008433D /* SMButton.swift */; };
 		FADE6F4E28C52D1B0008433D /* SMDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F4D28C52D1B0008433D /* SMDismissButton.swift */; };
+		FADE6F5028C668BD0008433D /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F4F28C668BD0008433D /* AccountViewModel.swift */; };
+		FADE6F5228C66E3B0008433D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F5128C66E3B0008433D /* String+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -106,6 +108,8 @@
 		FADE6F4828C514770008433D /* SmakolykDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykDetailView.swift; sourceTree = "<group>"; };
 		FADE6F4B28C52BF30008433D /* SMButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMButton.swift; sourceTree = "<group>"; };
 		FADE6F4D28C52D1B0008433D /* SMDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMDismissButton.swift; sourceTree = "<group>"; };
+		FADE6F4F28C668BD0008433D /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		FADE6F5128C66E3B0008433D /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +252,7 @@
 			isa = PBXGroup;
 			children = (
 				FAB3E99328AC16FC0062B3EE /* AccountView.swift */,
+				FADE6F4F28C668BD0008433D /* AccountViewModel.swift */,
 			);
 			path = AccountView;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 		FADE6F4528C512510008433D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				FADE6F5128C66E3B0008433D /* String+Ext.swift */,
 				FA0608A928BBDED5006433F0 /* Color+Ext.swift */,
 			);
 			path = Extensions;
@@ -471,6 +477,7 @@
 				FAB3E96828AC14500062B3EE /* SmakolykyApp.swift in Sources */,
 				FAB3E9BA28AC2B650062B3EE /* MockData.swift in Sources */,
 				FAB3E9C428B420140062B3EE /* Alert.swift in Sources */,
+				FADE6F5028C668BD0008433D /* AccountViewModel.swift in Sources */,
 				FAB3E99228AC16A50062B3EE /* SmakolykyListView.swift in Sources */,
 				FAB3E99828AC22770062B3EE /* Smakolyk.swift in Sources */,
 				FAB3E9C228B4186E0062B3EE /* SmakolykyViewModel.swift in Sources */,
@@ -478,6 +485,7 @@
 				FAB3E99628AC17100062B3EE /* OrderView.swift in Sources */,
 				FA0608A828BBDD48006433F0 /* LoadingView.swift in Sources */,
 				FADE6F4C28C52BF30008433D /* SMButton.swift in Sources */,
+				FADE6F5228C66E3B0008433D /* String+Ext.swift in Sources */,
 				FAB3E9BC28AC30AA0062B3EE /* SmakolykListItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

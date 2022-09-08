@@ -49,6 +49,7 @@
 		FADE6F5228C66E3B0008433D /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F5128C66E3B0008433D /* String+Ext.swift */; };
 		FADE6F5428C6731B0008433D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F5328C6731B0008433D /* User.swift */; };
 		FAEAB9A728CA6F1D00CDB98E /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAB9A628CA6F1D00CDB98E /* EmptyStateView.swift */; };
+		FAEAB9A928CA790600CDB98E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAB9A828CA790600CDB98E /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +115,7 @@
 		FADE6F5128C66E3B0008433D /* String+Ext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		FADE6F5328C6731B0008433D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FAEAB9A628CA6F1D00CDB98E /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
+		FAEAB9A828CA790600CDB98E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,6 +305,7 @@
 			children = (
 				FAB3E99728AC22770062B3EE /* Smakolyk.swift */,
 				FADE6F5328C6731B0008433D /* User.swift */,
+				FAEAB9A828CA790600CDB98E /* Order.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -501,6 +504,7 @@
 				FADE6F4C28C52BF30008433D /* SMButton.swift in Sources */,
 				FADE6F5228C66E3B0008433D /* String+Ext.swift in Sources */,
 				FAB3E9BC28AC30AA0062B3EE /* SmakolykListItem.swift in Sources */,
+				FAEAB9A928CA790600CDB98E /* Order.swift in Sources */,
 				FADE6F5428C6731B0008433D /* User.swift in Sources */,
 				FAEAB9A728CA6F1D00CDB98E /* EmptyStateView.swift in Sources */,
 			);

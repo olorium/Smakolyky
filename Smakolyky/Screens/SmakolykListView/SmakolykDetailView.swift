@@ -11,6 +11,7 @@ struct SmakolykDetailView: View {
     
     let smakolyk: Smakolyk
     @Binding var isShowingDetail: Bool
+    @EnvironmentObject var order: Order
     
     var body: some View {
         VStack {
@@ -33,7 +34,7 @@ struct SmakolykDetailView: View {
             }
             Spacer()
             Button {
-                print("tapped")
+                order.items.append(smakolyk)
             } label: {
                 SMButton(title: "$\(smakolyk.price, specifier: "%.2f") - Add to Order")
             }

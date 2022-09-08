@@ -31,14 +31,13 @@ struct SmakolykyListView: View {
             if viewModel.isShowingDetail {
                 if let selectedItem = viewModel.selectedSmakolyk {
                     SmakolykDetailView(smakolyk: selectedItem, isShowingDetail: $viewModel.isShowingDetail)
-                        .transition(AnyTransition.opacity.animation(.easeIn))
+                        .transition(.asymmetric(insertion: .opacity.animation(.easeIn), removal: .opacity))
                 }
             }
             
             // Present LoadingView while loading data
             if viewModel.isLoading {
                 LoadingView()
-                    .transition(AnyTransition.opacity.animation(.easeIn))
             }
         }
         .alert(item: $viewModel.alertItem) { alertItem in

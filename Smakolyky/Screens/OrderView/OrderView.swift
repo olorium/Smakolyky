@@ -26,13 +26,13 @@ struct OrderView: View {
                     Button {
                         
                     } label: {
-                        SMButton(title: "Order")
+                        SMButton(title: "Place Order: \(order.totalPrice, specifier: "%.2f")")
                     }
                     .padding(.bottom, 30)
                 }
                 if order.items.isEmpty {
                     EmptyStateView(imageName: "empty-order", label: "You have no items in your order.\nPlease add some first.")
-                        .transition(.asymmetric(insertion: .opacity, removal: .opacity.animation(.easeIn)))
+                        .transition(.asymmetric(insertion: .slide.animation(.easeIn), removal: .opacity))
                 }
             }
             .navigationTitle("Order")

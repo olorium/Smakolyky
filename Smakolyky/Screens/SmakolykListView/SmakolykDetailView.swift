@@ -35,6 +35,7 @@ struct SmakolykDetailView: View {
             Spacer()
             Button {
                 order.items.append(smakolyk)
+                isShowingDetail = false
             } label: {
                 SMButton(title: "$\(smakolyk.price, specifier: "%.2f") - Add to Order")
             }

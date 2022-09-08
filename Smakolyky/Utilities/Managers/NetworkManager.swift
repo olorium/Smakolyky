@@ -19,6 +19,9 @@ final class NetworkManager {
     /// JSON file lives in gitHub repo, folder `Remote`
     private let baseURL = "https://raw.githubusercontent.com/olorium/Smakolyky/main/Remote/api"
     
+    /// Order object
+    private var order = Order()
+    
     
     /// Getting array of `Smakolyky` from remote API
     func getSmakolyky(completed: @escaping((Result<[Smakolyk], SMError>) -> Void)) {

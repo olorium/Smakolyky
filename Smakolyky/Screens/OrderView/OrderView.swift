@@ -13,21 +13,27 @@ struct OrderView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                List {
-                    ForEach(orderItems) { smakolyk in
-                        SmakolykListItem(smakolyk: smakolyk)
+            ZStack {
+                VStack {
+                    List {
+                        ForEach(orderItems) { smakolyk in
+                            SmakolykListItem(smakolyk: smakolyk)
+                        }
+                        .onDelete (perform: deleteOrderItem)
                     }
-                    .onDelete (perform: deleteOrderItem)
-                }
-                .listStyle(.plain)
-
-                Button {
+                    .listStyle(.plain)
                     
-                } label: {
-                    SMButton(title: "Order")
+                    Button {
+                        
+                    } label: {
+                        SMButton(title: "Order")
+                    }
+                    .padding(.bottom, 30)
                 }
-                .padding(.bottom, 30)
+                if orderItems.isEmpty {
+                    EmptyStateView(imageName: "empty-order", label: "You have no items in your order.\nPlease add some first.")
+                        .transition(AnyTransition.opacity.animation(.easeIn))
+                }
             }
             .navigationTitle("Order")
         }

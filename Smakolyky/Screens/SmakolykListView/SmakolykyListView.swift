@@ -15,11 +15,20 @@ struct SmakolykyListView: View {
         ZStack{
             NavigationView {
                 List(viewModel.smakolykyList) { smakolyk in
+                    if #available(iOS 15.0, *) {
+                        SmakolykListItem(smakolyk: smakolyk)
+                            .listRowSeparator(.hidden)
+                            .onTapGesture {
+                                viewModel.selectedSmakolyk = smakolyk
+                                viewModel.isShowingDetail = true
+                            }
+                    }
                     SmakolykListItem(smakolyk: smakolyk)
                         .onTapGesture {
                             viewModel.selectedSmakolyk = smakolyk
                             viewModel.isShowingDetail = true
                         }
+
                 }
                 .navigationTitle("Smakolyky")
                 .listStyle(.plain)

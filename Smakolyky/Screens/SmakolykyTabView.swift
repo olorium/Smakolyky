@@ -8,23 +8,23 @@
 import SwiftUI
 
 struct SmakolykyTabView: View {
+    
+    @EnvironmentObject var order: Order
+    
     var body: some View {
         TabView {
             SmakolykyListView()
-                .tabItem {
-                    Image(systemName: "house")
-                    Text("Home")
-                }
+                .tabItem { Label("Home", systemImage: "house") }
             AccountView()
-                .tabItem {
-                    Image(systemName: "person")
-                    Text("Account")
-                }
-            OrderView()
-                .tabItem {
-                    Image(systemName: "bag")
-                    Text("Order")
-                }
+                .tabItem { Label("Account", systemImage: "person") }
+            if #available(iOS 15.0, *) {
+                OrderView()
+                .tabItem { Label("Order", systemImage: "bag") }
+                .badge(order.items.count)
+            } else {
+                OrderView()
+                    .tabItem { Label("Order", systemImage: "bag") }
+            }
         }
     }
 }

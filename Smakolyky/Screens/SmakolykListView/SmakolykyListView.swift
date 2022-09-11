@@ -22,12 +22,13 @@ struct SmakolykyListView: View {
                                 viewModel.selectedSmakolyk = smakolyk
                                 viewModel.isShowingDetail = true
                             }
-                    }
+                    } else {
                     SmakolykListItem(smakolyk: smakolyk)
                         .onTapGesture {
                             viewModel.selectedSmakolyk = smakolyk
                             viewModel.isShowingDetail = true
                         }
+                    }
 
                 }
                 .navigationTitle("Smakolyky")

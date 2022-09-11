@@ -22,6 +22,7 @@ struct SmakolykyListView: View {
                         }
                 }
                 .navigationTitle("Smakolyky")
+                .listStyle(.plain)
                 .disabled(viewModel.isShowingDetail)
             }
             .onAppear() { viewModel.getSmakolyky() }

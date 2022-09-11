@@ -26,7 +26,6 @@ struct SmakolykyTabView: View {
                     Text("Order")
                 }
         }
-        .accentColor(.brandPrimary)
     }
 }
 

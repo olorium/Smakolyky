@@ -33,13 +33,26 @@ struct SmakolykDetailView: View {
                 }
             }
             Spacer()
-            Button {
-                order.items.append(smakolyk)
-                isShowingDetail = false
-            } label: {
-                SMButton(title: "$\(smakolyk.price, specifier: "%.2f") - Add to Order")
+            if #available(iOS 15.0, *) {
+                Button {
+                    order.items.append(smakolyk)
+                    isShowingDetail = false
+                } label: {
+                    Text("$\(smakolyk.price, specifier: "%.2f") - Add to Order")
+                }
+                .modifier(StandarDButtonStyle())
+                .padding(.bottom, 30)
+                    
+            } else {
+                Button {
+                    order.items.append(smakolyk)
+                    isShowingDetail = false
+                } label: {
+                    SMButton(title: "$\(smakolyk.price, specifier: "%.2f") - Add to Order")
+                }
+                .padding(.bottom, 30)
             }
-            .padding(.bottom, 30)
+
         }
         .frame(width: 300, height: 525)
         .background(Color(.systemBackground))

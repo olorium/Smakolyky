@@ -22,13 +22,22 @@ struct OrderView: View {
                         .onDelete (perform: deleteOrderItem)
                     }
                     .listStyle(.plain)
-                    
-                    Button {
-                        
-                    } label: {
-                        SMButton(title: "Place Order: \(order.totalPrice, specifier: "%.2f")")
+                    if #available(iOS 15.0, *) {
+                        Button {
+                           
+                        } label: {
+                            Text("Place Order: $\(order.totalPrice, specifier: "%.2f")")
+                        }
+                        .modifier(StandarDButtonStyle())
+                        .padding(.bottom, 30)
+                    } else {
+                        Button {
+                            
+                        } label: {
+                            SMButton(title: "Place Order: $\(order.totalPrice, specifier: "%.2f")")
+                        }
+                        .padding(.bottom, 30)
                     }
-                    .padding(.bottom, 30)
                 }
                 if order.items.isEmpty {
                     EmptyStateView(imageName: "empty-order", label: "You have no items in your order.\nPlease add some first.")

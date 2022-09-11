@@ -50,6 +50,7 @@
 		FADE6F5428C6731B0008433D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADE6F5328C6731B0008433D /* User.swift */; };
 		FAEAB9A728CA6F1D00CDB98E /* EmptyStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAB9A628CA6F1D00CDB98E /* EmptyStateView.swift */; };
 		FAEAB9A928CA790600CDB98E /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAB9A828CA790600CDB98E /* Order.swift */; };
+		FAEAB9AC28CE68D500CDB98E /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAEAB9AB28CE68D500CDB98E /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +117,7 @@
 		FADE6F5328C6731B0008433D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FAEAB9A628CA6F1D00CDB98E /* EmptyStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyStateView.swift; sourceTree = "<group>"; };
 		FAEAB9A828CA790600CDB98E /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		FAEAB9AB28CE68D500CDB98E /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -313,6 +315,7 @@
 		FADE6F4728C512E50008433D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				FAEAB9AA28CE68BE00CDB98E /* Custom Modifiers */,
 				FAEAB9A528CA6ED300CDB98E /* Empty States */,
 				FADE6F4A28C52BA50008433D /* Buttons */,
 				FA0608A728BBDD48006433F0 /* LoadingView.swift */,
@@ -337,6 +340,14 @@
 				FAEAB9A628CA6F1D00CDB98E /* EmptyStateView.swift */,
 			);
 			path = "Empty States";
+			sourceTree = "<group>";
+		};
+		FAEAB9AA28CE68BE00CDB98E /* Custom Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				FAEAB9AB28CE68D500CDB98E /* Button.swift */,
+			);
+			path = "Custom Modifiers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -503,6 +514,7 @@
 				FA0608A828BBDD48006433F0 /* LoadingView.swift in Sources */,
 				FADE6F4C28C52BF30008433D /* SMButton.swift in Sources */,
 				FADE6F5228C66E3B0008433D /* String+Ext.swift in Sources */,
+				FAEAB9AC28CE68D500CDB98E /* Button.swift in Sources */,
 				FAB3E9BC28AC30AA0062B3EE /* SmakolykListItem.swift in Sources */,
 				FAEAB9A928CA790600CDB98E /* Order.swift in Sources */,
 				FADE6F5428C6731B0008433D /* User.swift in Sources */,

@@ -58,6 +58,23 @@ final class NetworkManager {
         task.resume()
     }
     
+    /// Getting array of `Smakolyky` from remote API, async version
+    func getSmakolykyAsync() async throws -> [Smakolyk] {
+        
+        guard let url = URL(string: baseURL) else {
+            throw SMError.invalidURL
+        }
+        
+        let (data, _) = try await URLSession.shared.data(from: url)
+        
+        do {
+            let decoder = JSONDecoder()
+            return try decoder.decode(SmakolykResponse.self, from: data).request
+        } catch {
+            throw SMError.invalidData
+        }
+    }
+    
     /// Getting images from `URLString`
     func downloadImage(from URLString: String, completed: @escaping(UIImage?) -> Void) {
         

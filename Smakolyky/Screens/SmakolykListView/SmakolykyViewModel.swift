@@ -7,7 +7,7 @@
 
 import Foundation
 
-final class SmakolykyListViewModel: ObservableObject {
+@MainActor final class SmakolykyListViewModel: ObservableObject {
     
     @Published var smakolykyList: [Smakolyk] = []
     @Published var alertItem: AlertItem?
@@ -39,6 +39,35 @@ final class SmakolykyListViewModel: ObservableObject {
                         alertItem = AlertContext.unableToComplete
                     }
                 }
+            }
+        }
+    }
+    
+    func getSmakolykyAsync() {
+        isLoading = true
+        Task {
+            do {
+                smakolykyList = try await NetworkManager.shared.getSmakolykyAsync()
+                isLoading = false
+            } catch {
+                if let error = error as? SMError {
+                    switch error {
+                    case .invalidURL:
+                        alertItem = AlertContext.invalidURL
+                        
+                    case .invalidResponse:
+                        alertItem = AlertContext.invalidResponse
+                        
+                    case .invalidData:
+                        alertItem = AlertContext.invalidResponse
+                        
+                    case .unableToComplete:
+                        alertItem = AlertContext.unableToComplete
+                    }
+                } else {
+                    alertItem = AlertContext.invalidResponse
+                }
+                isLoading = false
             }
         }
     }

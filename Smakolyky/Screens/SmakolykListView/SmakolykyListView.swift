@@ -13,30 +13,39 @@ struct SmakolykyListView: View {
     
     var body: some View {
         ZStack{
-            NavigationView {
-                List(viewModel.smakolykyList) { smakolyk in
-                    if #available(iOS 15.0, *) {
+            if #available(iOS 15.0, *) {
+                NavigationView {
+                    List(viewModel.smakolykyList) { smakolyk in
                         SmakolykListItem(smakolyk: smakolyk)
                             .listRowSeparator(.hidden)
                             .onTapGesture {
                                 viewModel.selectedSmakolyk = smakolyk
                                 viewModel.isShowingDetail = true
                             }
-                    } else {
-                    SmakolykListItem(smakolyk: smakolyk)
-                        .onTapGesture {
-                            viewModel.selectedSmakolyk = smakolyk
-                            viewModel.isShowingDetail = true
-                        }
                     }
-
+                    .navigationTitle("Smakolyky")
+                    .listStyle(.plain)
+                    .disabled(viewModel.isShowingDetail)
                 }
-                .navigationTitle("Smakolyky")
-                .listStyle(.plain)
-                .disabled(viewModel.isShowingDetail)
+                .task { viewModel.getSmakolykyAsync() }
+                .blur(radius: viewModel.isShowingDetail ? 20 : 0)
+            } else {
+                NavigationView {
+                    List(viewModel.smakolykyList) { smakolyk in
+                        SmakolykListItem(smakolyk: smakolyk)
+                            .onTapGesture {
+                                viewModel.selectedSmakolyk = smakolyk
+                                viewModel.isShowingDetail = true
+                            }
+                    }
+                    .navigationTitle("Smakolyky")
+                    .listStyle(.plain)
+                    .disabled(viewModel.isShowingDetail)
+                }
+                .onAppear() { viewModel.getSmakolyky() }
+                .blur(radius: viewModel.isShowingDetail ? 20 : 0)
             }
-            .onAppear() { viewModel.getSmakolyky() }
-            .blur(radius: viewModel.isShowingDetail ? 20 : 0)
+
             
             // Present DetailView on cell tap
             if viewModel.isShowingDetail {

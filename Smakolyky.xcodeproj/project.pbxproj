@@ -11,6 +11,10 @@
 		FA0608AA28BBDED5006433F0 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0608A928BBDED5006433F0 /* Color+Ext.swift */; };
 		FA48907828BEB1F900C70997 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48907728BEB1F900C70997 /* RemoteImage.swift */; };
 		FA8E763128D66F150079D22C /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E763028D66F150079D22C /* Date+Ext.swift */; };
+		FA8E763828D67B600079D22C /* 5.8-inch Screenshot 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8E763428D67B5F0079D22C /* 5.8-inch Screenshot 4.jpg */; };
+		FA8E763928D67B600079D22C /* 5.8-inch Screenshot 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8E763528D67B5F0079D22C /* 5.8-inch Screenshot 3.jpg */; };
+		FA8E763A28D67B600079D22C /* 5.8-inch Screenshot 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8E763628D67B600079D22C /* 5.8-inch Screenshot 1.jpg */; };
+		FA8E763B28D67B600079D22C /* 5.8-inch Screenshot 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FA8E763728D67B600079D22C /* 5.8-inch Screenshot 2.jpg */; };
 		FAB3E96828AC14500062B3EE /* SmakolykyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */; };
 		FAB3E96A28AC14500062B3EE /* SmakolykyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E96928AC14500062B3EE /* SmakolykyTabView.swift */; };
 		FAB3E96C28AC14530062B3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E96B28AC14530062B3EE /* Assets.xcassets */; };
@@ -76,6 +80,11 @@
 		FA0608A928BBDED5006433F0 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		FA48907728BEB1F900C70997 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		FA8E763028D66F150079D22C /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
+		FA8E763228D67AC40079D22C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FA8E763428D67B5F0079D22C /* 5.8-inch Screenshot 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5.8-inch Screenshot 4.jpg"; sourceTree = "<group>"; };
+		FA8E763528D67B5F0079D22C /* 5.8-inch Screenshot 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5.8-inch Screenshot 3.jpg"; sourceTree = "<group>"; };
+		FA8E763628D67B600079D22C /* 5.8-inch Screenshot 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5.8-inch Screenshot 1.jpg"; sourceTree = "<group>"; };
+		FA8E763728D67B600079D22C /* 5.8-inch Screenshot 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "5.8-inch Screenshot 2.jpg"; sourceTree = "<group>"; };
 		FAB3E96428AC14500062B3EE /* Smakolyky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smakolyky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyApp.swift; sourceTree = "<group>"; };
 		FAB3E96928AC14500062B3EE /* SmakolykyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyTabView.swift; sourceTree = "<group>"; };
@@ -147,9 +156,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA8E763328D67AEF0079D22C /* img */ = {
+			isa = PBXGroup;
+			children = (
+				FA8E763628D67B600079D22C /* 5.8-inch Screenshot 1.jpg */,
+				FA8E763728D67B600079D22C /* 5.8-inch Screenshot 2.jpg */,
+				FA8E763528D67B5F0079D22C /* 5.8-inch Screenshot 3.jpg */,
+				FA8E763428D67B5F0079D22C /* 5.8-inch Screenshot 4.jpg */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
 		FAB3E95B28AC14500062B3EE = {
 			isa = PBXGroup;
 			children = (
+				FA8E763328D67AEF0079D22C /* img */,
+				FA8E763228D67AC40079D22C /* README.md */,
 				FAB3E99928AC24910062B3EE /* Remote */,
 				FAB3E96628AC14500062B3EE /* Smakolyky */,
 				FAB3E97728AC14530062B3EE /* SmakolykyTests */,
@@ -459,12 +481,15 @@
 			files = (
 				FAB3E9B428AC28810062B3EE /* meatballs.jpg in Resources */,
 				FAB3E9AE28AC28810062B3EE /* chicken-avocado-spring-roll.jpg in Resources */,
+				FA8E763B28D67B600079D22C /* 5.8-inch Screenshot 2.jpg in Resources */,
 				FAB3E9B028AC28810062B3EE /* blackened-shrimp.jpg in Resources */,
 				FAB3E9B528AC28810062B3EE /* chicken-dumplings.jpg in Resources */,
 				FAB3E9B828AC28810062B3EE /* rainbow-spring-rolls.jpg in Resources */,
+				FA8E763A28D67B600079D22C /* 5.8-inch Screenshot 1.jpg in Resources */,
 				FAB3E9B128AC28810062B3EE /* chicken-wings.jpg in Resources */,
 				FAB3E9AB28AC28810062B3EE /* philly-cheesesteak-sliders.jpg in Resources */,
 				FAB3E9AF28AC28810062B3EE /* chicken-fingers.jpg in Resources */,
+				FA8E763828D67B600079D22C /* 5.8-inch Screenshot 4.jpg in Resources */,
 				FAB3E9B228AC28810062B3EE /* jumbo-tater-tot.jpg in Resources */,
 				FAB3E99C28AC258C0062B3EE /* api.json in Resources */,
 				FAB3E9AC28AC28810062B3EE /* buffalo-chicken-bites.jpg in Resources */,
@@ -473,6 +498,7 @@
 				FAB3E9B328AC28810062B3EE /* asian-flank-steak.jpg in Resources */,
 				FAB3E9B628AC28810062B3EE /* mozzarella-sticks.jpg in Resources */,
 				FAB3E9B728AC28810062B3EE /* fried-cheese-ravioli.jpg in Resources */,
+				FA8E763928D67B600079D22C /* 5.8-inch Screenshot 3.jpg in Resources */,
 				FAB3E9AD28AC28810062B3EE /* stuff-shells.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

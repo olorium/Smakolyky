@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// View for `close` or `dismiss` button
 struct SMDismissButton: View {
     var body: some View {
         ZStack {

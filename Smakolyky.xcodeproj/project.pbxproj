@@ -10,6 +10,7 @@
 		FA0608A828BBDD48006433F0 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0608A728BBDD48006433F0 /* LoadingView.swift */; };
 		FA0608AA28BBDED5006433F0 /* Color+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0608A928BBDED5006433F0 /* Color+Ext.swift */; };
 		FA48907828BEB1F900C70997 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA48907728BEB1F900C70997 /* RemoteImage.swift */; };
+		FA8E763128D66F150079D22C /* Date+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA8E763028D66F150079D22C /* Date+Ext.swift */; };
 		FAB3E96828AC14500062B3EE /* SmakolykyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */; };
 		FAB3E96A28AC14500062B3EE /* SmakolykyTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB3E96928AC14500062B3EE /* SmakolykyTabView.swift */; };
 		FAB3E96C28AC14530062B3EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB3E96B28AC14530062B3EE /* Assets.xcassets */; };
@@ -74,6 +75,7 @@
 		FA0608A728BBDD48006433F0 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		FA0608A928BBDED5006433F0 /* Color+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Ext.swift"; sourceTree = "<group>"; };
 		FA48907728BEB1F900C70997 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		FA8E763028D66F150079D22C /* Date+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Ext.swift"; sourceTree = "<group>"; };
 		FAB3E96428AC14500062B3EE /* Smakolyky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smakolyky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAB3E96728AC14500062B3EE /* SmakolykyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyApp.swift; sourceTree = "<group>"; };
 		FAB3E96928AC14500062B3EE /* SmakolykyTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmakolykyTabView.swift; sourceTree = "<group>"; };
@@ -298,6 +300,7 @@
 			children = (
 				FADE6F5128C66E3B0008433D /* String+Ext.swift */,
 				FA0608A928BBDED5006433F0 /* Color+Ext.swift */,
+				FA8E763028D66F150079D22C /* Date+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -504,6 +507,7 @@
 				FAB3E96A28AC14500062B3EE /* SmakolykyTabView.swift in Sources */,
 				FAB3E96828AC14500062B3EE /* SmakolykyApp.swift in Sources */,
 				FAB3E9BA28AC2B650062B3EE /* MockData.swift in Sources */,
+				FA8E763128D66F150079D22C /* Date+Ext.swift in Sources */,
 				FAB3E9C428B420140062B3EE /* Alert.swift in Sources */,
 				FADE6F5028C668BD0008433D /* AccountViewModel.swift in Sources */,
 				FAB3E99228AC16A50062B3EE /* SmakolykyListView.swift in Sources */,

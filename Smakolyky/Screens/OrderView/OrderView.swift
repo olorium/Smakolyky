@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Order screen view
 struct OrderView: View {
     
     @EnvironmentObject var order: Order
@@ -48,6 +49,7 @@ struct OrderView: View {
         }
     }
     
+    /// Method for removing order items
     func deleteOrderItem(at index: IndexSet) {
         order.items.remove(atOffsets: index)
     }

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A screen with list of items
 struct SmakolykyListView: View {
     
     @StateObject var viewModel = SmakolykyListViewModel()

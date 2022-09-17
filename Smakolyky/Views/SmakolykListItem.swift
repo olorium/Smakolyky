@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// A view (cell) with image and product name for product list
 struct SmakolykListItem: View {
     
     let smakolyk: Smakolyk

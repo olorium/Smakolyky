@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// View model for list view
 @MainActor final class SmakolykyListViewModel: ObservableObject {
     
     @Published var smakolykyList: [Smakolyk] = []
@@ -15,6 +16,7 @@ import Foundation
     @Published var isShowingDetail = false
     @Published var selectedSmakolyk: Smakolyk?
     
+    /// Creating a network call and fetching item array
     func getSmakolyky() {
         isLoading = true
         NetworkManager.shared.getSmakolyky { result in
@@ -43,6 +45,7 @@ import Foundation
         }
     }
     
+    /// Creating a network call and fetching item array using async version
     func getSmakolykyAsync() {
         isLoading = true
         Task {

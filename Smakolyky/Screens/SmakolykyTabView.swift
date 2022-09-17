@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// The tab view with main navigation menu
 struct SmakolykyTabView: View {
     
     @EnvironmentObject var order: Order

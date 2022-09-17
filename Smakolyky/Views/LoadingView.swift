@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Activity indicator view for loading states
 struct ActivityIndicator: UIViewRepresentable {
     
     func makeUIView(context: Context) -> UIActivityIndicatorView {
@@ -25,7 +26,13 @@ struct LoadingView: View {
         ZStack {
             Color(.systemBackground)
                 .ignoresSafeArea()
-            ActivityIndicator()
+            if #available(iOS 15.0, *) {
+                ProgressView()
+                    .progressViewStyle(CircularProgressViewStyle(tint: .brandPrimary))
+                    .scaleEffect(2)
+            } else {
+                ActivityIndicator()
+            }
             
         }
     }

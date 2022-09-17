@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Standard button style for iOS 14 and below
 struct SMButton: View {
     let title: LocalizedStringKey
     var body: some View {

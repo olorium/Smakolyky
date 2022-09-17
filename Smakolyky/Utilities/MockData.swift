@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Mock data used for previews
 struct MockData {
     
     static let sampleSmakolyk = Smakolyk(id: Int.random(in: 0...10),

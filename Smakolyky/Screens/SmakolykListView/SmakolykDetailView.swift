@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Detail view with big image and description for an item
 struct SmakolykDetailView: View {
     
     let smakolyk: Smakolyk
@@ -27,9 +28,9 @@ struct SmakolykDetailView: View {
                     .font(.body)
                     .padding()
                 HStack(spacing: 40) {
-                    NutritionInfo(title: "Calories", value: smakolyk.calories)
-                    NutritionInfo(title: "Carbs", value: smakolyk.carbs)
-                    NutritionInfo(title: "Protein", value: smakolyk.protein)
+                    NutritionInfo(title: "Calories", value: "\(smakolyk.calories)")
+                    NutritionInfo(title: "Carbs", value: "\(smakolyk.carbs) g")
+                    NutritionInfo(title: "Protein", value: "\(smakolyk.protein) g")
                 }
             }
             Spacer()
@@ -77,14 +78,14 @@ struct SmakolykDetailView_Previews: PreviewProvider {
 struct NutritionInfo: View {
     
     let title: String
-    let value: Int
+    let value: String
     
     var body: some View {
         VStack(spacing: 5) {
             Text(title)
                 .font(.caption)
                 .fontWeight(.bold)
-            Text("\(value)")
+            Text(value)
                 .foregroundColor(.secondary)
                 .fontWeight(.semibold)
                 .italic()

@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// View with image and label for empty states
 struct EmptyStateView: View {
     
     let imageName: String

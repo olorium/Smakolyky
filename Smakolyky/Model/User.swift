@@ -7,6 +7,7 @@
 
 import Foundation
 
+/// Struct describing user
 struct User: Codable {
     var firstName = ""
     var lastName = ""

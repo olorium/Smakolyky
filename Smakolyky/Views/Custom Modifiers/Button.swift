@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// Custom ViewModifier for standard button style
 struct StandarDButtonStyle: ViewModifier {
     
     func body(content: Content) -> some View {

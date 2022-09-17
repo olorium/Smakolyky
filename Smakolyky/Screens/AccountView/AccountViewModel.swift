@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+/// ViewModel for Personal Details screen
 final class AccountViewModel: ObservableObject {
    
     @Published var user = User()

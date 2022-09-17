@@ -13,9 +13,24 @@ struct SmakolykListItem: View {
     
     var body: some View {
         HStack {
-            SmakolykRemoteImage(url: smakolyk.imageURL)
-                .frame(width: 120, height: 90)
-                .cornerRadius(8)
+            if #available(iOS 15.0, *) {
+                AsyncImage(url: URL(string: smakolyk.imageURL)) { image in
+                    image
+                        .resizable()
+                        .aspectRatio(contentMode: .fill)
+                        .frame(width: 120, height: 90)
+                        .cornerRadius(8)
+                } placeholder: {
+                    Image("food-placeholder")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 120, height: 90)
+                }
+            } else {
+                SmakolykRemoteImage(url: smakolyk.imageURL)
+                    .frame(width: 120, height: 90)
+                    .cornerRadius(8)
+            }
             VStack(alignment: .leading, spacing: 5) {
                 Text(smakolyk.name)
                     .font(.title2)
